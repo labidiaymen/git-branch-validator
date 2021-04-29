@@ -56,7 +56,9 @@ $ npm i @impact-tools/git-branch-validator --save-dev
   },
   "git-branch-validator": {
     "pattern": "^(master|develop){1}$|^(feature|fix|hotfix|release)\/.+$",
-    "errorMsg": "your error message"
+    "errorMsg": "your error message",
+    "sandbox" : "https://regex101.com/r/XXXXXX" // <-- optional
+    "showPattern" : true // <-- optional
   }
 }
 ```
