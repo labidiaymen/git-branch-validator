@@ -43,7 +43,7 @@ $ npm i @impact-tools/git-branch-validator --save-dev
 
 **Configure hooks and pattern using package.json.**
 
-"@impact-tools/git-branch-validator" attribute in package.json is optional, we have set default pattern and errorMsg in project. But you can still defined them as you like.
+"git-branch-validator" attribute in package.json is optional, we have set default pattern and errorMsg in project. But you can still defined them as you like.
 
 ```js
 
