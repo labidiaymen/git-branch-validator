@@ -1,5 +1,5 @@
 {
-  "name": "@tools/git-branch-validator",
+  "name": "@impact-tools/git-branch-validator",
   "version": "1.0.0",
   "description": "Git branch name validator",
   "main": "index.js",
