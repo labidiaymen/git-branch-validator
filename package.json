@@ -1,0 +1,56 @@
+{
+  "name": "@tools/git-branch-validator",
+  "version": "1.0.0",
+  "description": "Git branch name validator",
+  "main": "index.js",
+  "bin": {
+    "branch-validator": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "test": "istanbul cover -x test/**/*.test.js node_modules/mocha/bin/_mocha -- -R spec test/**/*.test.js",
+    "lint": "eslint . --fix",
+    "ci": "npm run lint && npm run test && npm run check-coverage && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labidiaymen/git-branch-name-validator.git"
+  },
+  "keywords": [
+    "git-branch-name-validator",
+    "branch-name",
+    "branch",
+    "hook",
+    "git",
+    "git hook",
+    "git branch name",
+    "branch name",
+    "pre push",
+    "git push"
+  ],
+  "authors": [
+    "jsonma",
+    "aymen <labidi@aymen.co>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JsonMa/git-branch-name-validator/issues"
+  },
+  "homepage": "https://github.com/JsonMa/git-branch-name-validator#readme",
+  "dependencies": {
+    "cosmiconfig": "^5.2.1",
+    "current-git-branch": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "@types/node": "^15.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-egg": "^7.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "typescript": "^4.2.4"
+  }
+}
