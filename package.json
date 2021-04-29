@@ -1,8 +1,8 @@
 {
   "name": "@impact-tools/git-branch-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Git branch name validator",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
     "branch-validator": "./dist/index.js"
   },
@@ -35,9 +35,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JsonMa/git-branch-name-validator/issues"
+    "url": "https://github.com/labidiaymen/git-branch-validator/issues"
   },
-  "homepage": "https://github.com/JsonMa/git-branch-name-validator#readme",
+  "homepage": "https://github.com/labidiaymen/git-branch-validator#readme",
   "dependencies": {
     "cosmiconfig": "^5.2.1",
     "current-git-branch": "^1.1.0"
