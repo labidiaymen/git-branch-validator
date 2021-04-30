@@ -1,17 +1,11 @@
 # @impact-tools/git-branch-validator
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/labidiaymen/git-branch-validator/blob/master/LICENSE)
-
 [![npm version](https://img.shields.io/npm/v/@impact-tools/git-branch-validator.svg?style=flat)](https://www.npmjs.com/package/@impact-tools/git-branch-validator)
-
-[![Build Status](https://www.travis-ci.org/labidiaymen/@impact-tools/git-branch-validator.svg?branch=master)](https://www.travis-ci.org/labidiaymen/@impact-tools/git-branch-validator)
-
 [![codecov](https://codecov.io/gh/labidiaymen/@impact-tools/git-branch-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/labidiaymen/@impact-tools/git-branch-validator)
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/labidiaymen/git-branch-validator/pulls)
 
 [![Known Vulnerabilities][snyk-image]][snyk-url]
-
 [![npm download][download-image]][download-url]
 
 [snyk-image]: https://snyk.io/test/npm/@impact-tools/git-branch-validator/badge.svg?style=flat-square
